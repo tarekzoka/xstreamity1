@@ -5,13 +5,8 @@
 # SCRIPT : DOWNLOAD AND INSTALL xstreamity1 #
 # 
 # Command: wget https://raw.githubusercontent.com/tarekzoka/xstreamity1/main/installer.sh -O - | /bin/sh #
-######## 
-# Plugin	... xstreamity
-PACKAGE_DIR='xstreamity1/main/'
-MY_IPK="enigma2-plugin-extensions-xstreamity_3.18.20210917_all.ipk"
-# Auto ... Do not change
 
-# Decide : which package ?
+# 
 MY_MAIN_URL="https://raw.githubusercontent.com/tarekzoka/xstreamity1/main/enigma2-plugin-extensions-xstreamity_3.18.20210917_all.ipk"
 if which opkg > /dev/null 2>&1; then
 	MY_FILE=$MY_DEB
