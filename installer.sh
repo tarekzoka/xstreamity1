@@ -13,7 +13,7 @@ MY_IPK="enigma2-plugin-extensions-xstreamity_3.18.20210917_all.ipk"
 
 # Decide : which package ?
 MY_MAIN_URL="https://raw.githubusercontent.com/tarekzoka/xstreamity1/main/enigma2-plugin-extensions-xstreamity_3.18.20210917_all.ipk"
-if which dpkg > /dev/null 2>&1; then
+if which opkg > /dev/null 2>&1; then
 	MY_FILE=$MY_DEB
 	MY_URL=$MY_MAIN_URL$PACKAGE_DIR'/'$MY_DEB
 else
