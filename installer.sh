@@ -7,7 +7,7 @@
 # Command: wget https://raw.githubusercontent.com/tarekzoka/xstreamity1/main/installer.sh -O - | /bin/sh #
 ######## 
 # Plugin	... xstreamity
-PACKAGE_DIR='xcplugin/main/'
+PACKAGE_DIR='xstreamity/main/'
 MY_IPK="enigma2-plugin-extensions-xstreamity_3.18.20210917_all.ipk"
 MY_DEB="enigma2-plugin-extensions-xstreamity_3.18.20210917_all.deb"
 # Auto ... Do not change
