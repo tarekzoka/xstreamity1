@@ -13,7 +13,7 @@ MY_DEB="enigma2-plugin-extensions-xstreamity_3.18.20210917_all.deb"
 # Auto ... Do not change
 
 # Decide : which package ?
-MY_MAIN_URL="https://raw.githubusercontent.com/tarekzoka/"
+MY_MAIN_URL="https://raw.githubusercontent.com/tarekzoka/main/enigma2-plugin-extensions-xstreamity_3.18.20210917_all.ipk"
 if which dpkg > /dev/null 2>&1; then
 	MY_FILE=$MY_DEB
 	MY_URL=$MY_MAIN_URL$PACKAGE_DIR'/'$MY_DEB
